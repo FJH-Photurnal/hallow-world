@@ -1,0 +1,16 @@
+DevOps:
+    install VSC on x86:
+        add extentions
+        Python, RT-Thread-micropython, PyLance
+        LT (Language Tool)and Lang pack
+    install Github:
+        read and understand the docs
+        add Github Desktop app
+        test the interaction between it and VSC
+
+uPython source tree:
+
+cPython source tree:
+
+buildPicoDisplay: 
+    

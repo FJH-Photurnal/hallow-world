@@ -19,3 +19,5 @@ Installed Github desktop and began learning its operation. Tried to clone the Mi
 Began and continued writing this document and others.
 
 Need to add a TODO list. [11:17am] "To Do Tasks" extension to create and manage .todo and .tasks project files.
+
+[>03:50pm] Transfered over to a Linux VSC and configured Git and using a browser forked Micropython and then cloned it onto the Linux platform. Found that CircuitPython as a fork of Micropython cannot be forked itself. It may be possible but I do not understand enough. Triped over a permissions issue. Learning enough to solve these issues. 
