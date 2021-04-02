@@ -10,3 +10,12 @@ Further there are two 'Python for MCU' variants available, uPython and cPython (
 
 Onto what my activities yesterday and today have wrought before now. Decisions, concentrate on Python and its variants, learn a more sophisticated IDE (VSC, Visual Studio Code) and create an ordered file structure that spans the veriaty of platforms I use. Some research and notions of effective development indicated version control is important leading to the use of Git and Github. Also, I determined that I need to establish a complete development environment including uPython and cPython source trees. This required learning how to use Git, a CLI application so I sought a GUI option. This led to the Github Desktop application that this document is being used to experiment with. 
 
+[02/04/2021 10:31am]
+
+Using an ancient celeron x86 platform with Win10 (2004). Installed the latest Visual Studio Code, VSC extentions Python, RT-Thread Micropython, Language Tool, Circuitpython and Pylance. 
+
+Installed Github desktop and began learning its operation. Tried to clone the Micropython src, failed. Need to fork and clone using my Github account.
+
+Began and continued writing this document and others.
+
+Need to add a TODO list. [11:17am] "To Do Tasks" extension to create and manage .todo and .tasks project files.
