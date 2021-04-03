@@ -21,3 +21,26 @@ Began and continued writing this document and others.
 Need to add a TODO list. [11:17am] "To Do Tasks" extension to create and manage .todo and .tasks project files.
 
 [>03:50pm] Transfered over to a Linux VSC and configured Git and using a browser forked Micropython and then cloned it onto the Linux platform. Found that CircuitPython as a fork of Micropython cannot be forked itself. It may be possible but I do not understand enough. Triped over a permissions issue. Learning enough to solve these issues. 
+
+[04/04/2021 1:25am]
+
+Begun early Easter Sunday by investigating GUI possibilities. Got fixated upon QT, particularly QT on Python for a RPI4 dev platform. Reminding myself about the objective I considered the simplicity required despite the repetative nature of GUI definitions. While there is little informantion about using TKinter with MicroPython or CircuitPython both seen to have community developments aimed at providing display modules. nano_GUI is one whilst Adafruit have built displayio as a base module. 
+
+After following those shinny new ideas (not so shinny or new) the complexity of choice (QT4, QT5 or the current QT6) along with installation on the PI reduced my immediate interest. So I spent a portion of yesterday begining a specs document for my principle project idea. Here is a quote from that doc that gives a sense of this project.
+
+""" 
+    Before getting too deep into the weeds of my speculative design mind I should state that this vehicle is designed as a safe, effective, low-impact cargo and people transport using human hybrid power. Configured to transport up to three adult passengers with rider or between 300kg and 400kg of well distributed cargo or a combination. Limited to around 30kph with a powered range of less than 100km. Intended for local, short ranged transport by domestic and commercial users.
+"""
+
+This part of the project is to design, develop and build a 'proof of concept' deployment for a control system. Building a development environment, selecting hardware, firmware and the toolchains to build them depend upon the specs and skills I write and have. But decisions and commitment are issues I currently suffer a lack of. Anyway, using a pair of PI's connected wirelessly to host local MCU function modules simplifies the inherent mechanical issues while separating functional elements into thier own modules simplifies deployment, I hope. 
+
+At present, the firm design intents are, a primary RPI connected to a 5" to 10" touch display as rider instrumentation and secondary control. Also this PI is the edge server between the contained system and the rest of the world. While maintaining and opperational wireless connection to the second PI hosting the rear function modules. 
+
+Each PI is directly wired into thier respective local MCU modules, the primary to the forward box cargo section and wheels with the secondary to the energy, power and drive sections. Not mentioned is an attempt at lowering costs, prototyping is typically more expensive than a deployment but with limited resources somewhat fraught. 
+
+In my mind the most developed idea is an attempt to build a lightweight version of ABS braking. In addition a version of a dual hydraulic safety system. These ideas will be detailed in, when available, the aforementioned specs documents. 
+
+So, back on point. this project element using this venue is to develop the firmware and software needed to implement an intelligent light electric vehicle (LEV) control system tailored for hybrid (Human/electric) powered vehicles. Using traditional and emerging bicycle technologies, particularly digital monitoring and control, newer MCU and SBC devices to implement these ideas. 
+
+In practical terms these elements are, UI/control, energy collection/management/delivery, environmental monitoring/optimisation and retardation/drive. While interconnected these are the principle elements needed. Other necessary aspects will emerge but these are enough to contend with. [6:10am]
+
